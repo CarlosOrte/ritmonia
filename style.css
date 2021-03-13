@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -138,12 +139,12 @@ header img{
 .texto_container{
     width: 90%;
     display: flex;
-    margin-top: 99px;
+    margin-top: 6.187em;
 }
 .container_tipo{
     width: 90%;
     display: flex;
-    margin-top: 99px;
+    margin-top: 6.187em;
 }
 .titulo{
    width: 25%; 
@@ -162,11 +163,14 @@ header img{
 }
 
 /*barra de colores*/
-.color_rec{
+
+.color_rect{
     background-color: #fff;
-     width: 12.5em;
-    
+     width: 20%;
+    height: 3.812em;
+    margin-bottom: 3.125em;
 }
+
 #azul{
     background-color: #5F4BB6;
 }
@@ -205,6 +209,7 @@ ul.slider li {
     height: inherit;
     transition: opacity .5s;
     background:#fff;
+    
 }
 
 ul.slider li img{
@@ -351,4 +356,8 @@ footer .row{
     #card{height: 35em;}
     .botton_green{width: 85%;}
     .navbar{display: none;}
+}
+@media screen and (max-width:400px){
+    body{font-size: 5px;}
+    
 }
